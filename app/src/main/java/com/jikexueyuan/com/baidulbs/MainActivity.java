@@ -1,4 +1,4 @@
-package com.jikexueyuan.com.baidulbs;
+﻿package com.jikexueyuan.com.baidulbs;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText title_text,content_text,location_text,tel_text;
     private Button uploadBtn,renovateBtn;
     private MapView mapView;    //呈现地图
-    private BaiduMap baiduMap;//地图总控制类
+    private BaiduMap baiduMap;//地图总控制类 建立
     private boolean isFirstLocate=true;//防止多次调用animateMapStatus()方法
 
 
